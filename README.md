@@ -1,4 +1,7 @@
-# test coverage for  [sigmund (v1.0.1)](https://github.com/isaacs/sigmund#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-sigmund.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-sigmund) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-sigmund.svg)](https://travis-ci.org/npmtest/node-npmtest-sigmund)
+# npmtest-sigmund
+
+#### basic test coverage for  [sigmund (v1.0.1)](https://github.com/isaacs/sigmund#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-sigmund.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-sigmund) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-sigmund.svg)](https://travis-ci.org/npmtest/node-npmtest-sigmund)
+
 #### Quick and dirty signatures for Objects.
 
 [![NPM](https://nodei.co/npm/sigmund.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/sigmund)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-sigmund/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-sigmund/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-sigmund/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-sigmund/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-sigmund/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-sigmund/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-sigmund/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-sigmund/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-sigmund/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-sigmund/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-sigmund/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-sigmund/build/coverage.html/index.html)
 
@@ -77,7 +80,8 @@
         "bench": "node bench.js",
         "test": "tap test/*.js"
     },
-    "version": "1.0.1"
+    "version": "1.0.1",
+    "bin": {}
 }
 ```
 
